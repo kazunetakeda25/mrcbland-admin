@@ -1,0 +1,44 @@
+#draggable-cards .card
+{
+    cursor: -webkit-grab;
+    cursor:    -moz-grab;
+    cursor:         grab;
+}
+
+#basic-list-group .list-group-item,
+#multiple-list-group-a .list-group-item,
+#multiple-list-group-b .list-group-item
+{
+    cursor: -webkit-grab;
+    cursor:    -moz-grab;
+    cursor:         grab;
+}
+
+#clone-lists .chip
+{
+    cursor: -webkit-grab;
+    cursor:    -moz-grab;
+    cursor:         grab;
+}
+
+#multiple-list-group-a,
+#multiple-list-group-b
+{
+    min-height: 5.714rem;
+}
+
+#dd-with-handle .list-group
+{
+    min-height: 5.714rem;
+}
+#dd-with-handle .list-group .handle
+{
+    font-size: 1.2rem; 
+
+    margin-right: 5px;
+    padding: 0 5px;
+
+    cursor: move;
+
+    background-color: rgba(0, 0, 0, .1);
+}

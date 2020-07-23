@@ -1,0 +1,48 @@
+.rslt-btn button
+{
+    font-size: 13px;
+}
+
+.table-action
+{
+    padding: 4px 30px;
+}
+
+div.dataTables_wrapper div.dataTables_filter label
+{
+    position: relative;
+}
+div.dataTables_wrapper div.dataTables_filter label i
+{
+    position: absolute;
+    top: 7px; 
+    right: 9px;
+}
+
+div.dataTables_wrapper div .dataTables_filter select,
+div.dataTables_wrapper div .dataTables_length select
+{
+    padding: 0 1.5rem;
+}
+
+div.dataTables_wrapper div .dataTables_filter input
+{
+    border-radius: 15px;
+}
+
+table.dataTable tbody td.select-checkbox:before,
+table.dataTable tbody td.select-checkbox:after
+{
+    top: 2.4em;
+}
+
+table.dataTable tbody th.select-checkbox:before,
+table.dataTable tbody th.select-checkbox:after
+{
+    top: 2.4em;
+}
+
+table.dataTable tbody .badge
+{
+    padding: 10px 12px;
+}
